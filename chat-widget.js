@@ -615,3 +615,4 @@
     loaderStyleSheet.textContent = loaderStyle;
     document.head.appendChild(loaderStyleSheet);    
 })();
+
