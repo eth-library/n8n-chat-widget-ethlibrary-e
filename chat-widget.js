@@ -271,6 +271,34 @@
         .n8n-chat-widget .chat-footer a:hover {
             opacity: 1;
         }
+        /* Einheitliche Typografie in den Chat-Bubbles */
+        .n8n-chat-widget .chat-message,
+        .n8n-chat-widget .chat-message p,
+        .n8n-chat-widget .chat-message li,
+        .n8n-chat-widget .chat-message td,
+        .n8n-chat-widget .chat-message pre,
+        .n8n-chat-widget .chat-message code {
+          font-size: 14px !important;
+          line-height: 1.5;
+        }
+        
+        /* Falls Markdown Überschriften reinkommen (marked) */
+        .n8n-chat-widget .chat-message h1,
+        .n8n-chat-widget .chat-message h2,
+        .n8n-chat-widget .chat-message h3,
+        .n8n-chat-widget .chat-message h4,
+        .n8n-chat-widget .chat-message h5,
+        .n8n-chat-widget .chat-message h6 {
+          font-size: 14px !important;
+          line-height: 1.5;
+          margin: 0.5em 0 0.4em;
+        }
+        
+        /* Option: Listeneinzüge moderat halten */
+        .n8n-chat-widget .chat-message ul,
+        .n8n-chat-widget .chat-message ol {
+          margin: 0.4em 0 0.4em 1.1em;
+        }
     `;
 
     // Inject styles
